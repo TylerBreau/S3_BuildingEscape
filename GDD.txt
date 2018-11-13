@@ -1,0 +1,10 @@
+Concept - Escape the Room
+Anything goes if it's possible
+Goal is to get out of the room
+
+Requirements:
+Unreal's provided Start Content Pack
+C++ code and Blueprint code
+Sound effects
+Sketches for layout of room(s)
+Sketches for how puzzles work. (1 ~5-step puzzle)

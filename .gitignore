@@ -260,9 +260,9 @@ paket-files/
 __pycache__/
 *.pyc
 
-Binaries/
-Saved/
-Intermediate/
-Build/
-DerivedDataCache/
-Content/StarterContent/
+S3_BuildingEscape/Binaries/
+S3_BuildingEscape/Saved/
+S3_BuildingEscape/Intermediate/
+S3_BuildingEscape/Build/
+S3_BuildingEscape/DerivedDataCache/
+S3_BuildingEscape/Content/StarterContent/

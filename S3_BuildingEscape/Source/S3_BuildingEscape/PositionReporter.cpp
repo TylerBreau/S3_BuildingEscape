@@ -28,7 +28,7 @@ void UPositionReporter::TickComponent(float DeltaTime, ELevelTick TickType, FAct
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 	FVector Pos = GetOwner()->GetActorLocation();
-	UE_LOG(LogTemp, Warning, TEXT("%s is at X=%f, Y=%f, Z=%f"), *GetOwner()->GetName(), Pos.X, Pos.Y, Pos.X);
+	//UE_LOG(LogTemp, Warning, TEXT("%s is at X=%f, Y=%f, Z=%f"), *GetOwner()->GetName(), Pos.X, Pos.Y, Pos.X);
 
 	// ...
 }

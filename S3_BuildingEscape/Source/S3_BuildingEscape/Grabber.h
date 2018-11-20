@@ -4,8 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
+#include "Components/InputComponent.h"
 #include "Grabber.generated.h"
-
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class S3_BUILDINGESCAPE_API UGrabber : public UActorComponent
@@ -27,4 +28,9 @@ public:
 private:
 	AActor* player;
 	float reach;
+	UPhysicsHandleComponent* physicsHandle = nullptr;
+	UInputComponent* inputComponent = nullptr;
+	void Grab();
+	void Release();
+	FVector GetTargetLocation();
 };
